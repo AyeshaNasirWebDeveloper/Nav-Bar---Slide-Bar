@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    /* background-color: aqua; */
+}
+
+/* NAV BAR */
+
+.Nav {
+    margin-right: 2%;
+    font-size: xx-large;
+}
+
+.box1 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-bottom: solid;
+    border-color: rgb(0, 0, 0);
+    height: 100%;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-variation-settings: "wdth" 70;
+}
+
+.Nav1 {
+    margin: 1%;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    transition-duration: 5s;
+}
+
+.Nav1:hover {
+    color: rgb(197, 70, 70);
+    text-shadow: 2px 2px 2px rgb(189, 55, 55);
+    transition: 0.5s;
+}
+
+.Nav2 {
+    margin: 1%;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    transition-duration: 5s;
+}
+
+.Nav2:hover {
+    color: rgb(197, 70, 70);
+    text-shadow: 2px 2px 2px rgb(189, 55, 55);
+    transition: 0.5s;
+}
+
+.Nav3 {
+    margin: 1%;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    transition-duration: 5s;
+}
+
+.Nav3:hover {
+    color: rgb(197, 70, 70);
+    text-shadow: 2px 2px 2px rgb(189, 55, 55);
+    transition: 0.5s;
+}
+
+.Nav4 {
+    margin: 1%;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    transition-duration: 5s;
+}
+
+.Nav4:hover {
+    color: rgb(197, 70, 70);
+    text-shadow: 2px 2px 2px rgb(189, 55, 55);
+    transition: 0.5s;
+}
+
+.Nav5 {
+    margin: 1%;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    transition-duration: 5s;
+    margin-right: 25%;
+}
+
+.Nav5:hover {
+    color: rgb(197, 70, 70);
+    text-shadow: 2px 2px 2px rgb(189, 55, 55);
+    transition: 0.5s;
+}
+
+.searchnav {
+    background-color: rgb(59, 55, 55);
+    border: 1px;
+    border-color: grey;
+    padding: 2%;
+    color: aliceblue;
+    width: 300px;
+    height: 40px;
+}
+
+/* SIDE BAR */
+
+.bar {
+    margin-right: 2%;
+    font-size: xx-large;
+}
+
+.container{
+    display: flex;
+}
+
+.box2 {
+    position: relative;
+    width: 300px;
+    transition: all .5s ease;
+    font-size: 28px;
+    line-height: 70px;
+    text-align: center;
+    margin-left: 5%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    color: aliceblue;
+    height: 80%;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-variation-settings: "wdth" 70;
+    
+}
+
+.bar1 {
+    margin: 1%;
+    text-decoration: none;
+    color: white;
+    font-weight: 400px;
+    transition-duration: 5s;
+}
+
+.bar1:hover {
+    color: rgb(197, 70, 70);
+    text-shadow: 2px 2px 2px rgb(189, 55, 55);
+    transition: 0.5s;
+}
+
+.bar2 {
+    margin: 1%;
+    text-decoration: none;
+    color: white;
+    font-weight: 400px;
+    transition-duration: 5s;
+}
+
+.bar2:hover {
+    color: rgb(197, 70, 70);
+    text-shadow: 2px 2px 2px rgb(189, 55, 55);
+    transition: 0.5s;
+}
+
+.bar3 {
+    margin: 1%;
+    text-decoration: none;
+    color: white;
+    font-weight: 400px;
+    transition-duration: 5s;
+}
+
+.bar3:hover {
+    color: rgb(197, 70, 70);
+    text-shadow: 2px 2px 2px rgb(189, 55, 55);
+    transition: 0.5s;
+}
+
+.bar4 {
+    margin: 1%;
+    text-decoration: none;
+    color: white;
+    font-weight: 400px;
+    transition-duration: 5s;
+}
+
+.bar4:hover {
+    color: rgb(197, 70, 70);
+    text-shadow: 2px 2px 2px rgb(189, 55, 55);
+    transition: 0.5s;
+}
+
+.bar5 {
+    margin: 1%;
+    text-decoration: none;
+    color: white;
+    font-weight: 400px;
+    transition-duration: 5s;
+}
+
+.bar5:hover {
+    color: rgb(197, 70, 70);
+    text-shadow: 2px 2px 2px rgb(189, 55, 55);
+    transition: 0.5s;
+}
+
+/* CENTER */
+
+.box3 {
+    width: 800px;
+    height: 100%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400px;
+
+}
+
+.search{
+    background-color: black;
+    padding-left: 1%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     margin-left: 10%;
+    margin-right:50%;
+}
+.searchbar {
+    background-color: rgb(59, 55, 55);
+    border: 1px;
+    border-color: grey;
+    padding: 2%;
+    color: aliceblue;
+    width: 290px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+div > h1{
+    font-weight: 100px;
+}
+
+.head{
+    margin-top: 0%;
+    background-color: black;
+    color: beige;
+    height: 70px;
+    width: 400px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size:xx-large;
+}
+
+.text1 {
+    margin: 30px 0px 5px 61px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    transition-duration: 5s;
+    text-transform: uppercase;
+}
+
+.text1:hover {
+    color: rgb(39, 114, 45);
+    text-shadow: 2px 2px 2px rgb(39, 95, 46);
+    transition: 0.5s;
+}
+
+.text2 {
+    margin: 0px 0px 5px 61px;
+    text-decoration: none;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    transition-duration: 5s;
+    text-transform: uppercase;
+}
+
+.text2:hover {
+    color: rgb(98, 220, 236);
+    text-shadow: 2px 2px 2px rgb(39, 95, 46);
+    transition: 0.5s;
+}
+
+.java{
+    
+}
+
+.text3 {
+    margin: 0px 0px 5px 61px;
+    text-decoration: none;
+    border: 10px solid black;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    transition-duration: 5s;
+    text-transform: uppercase;
+}
+
+.text3:hover {
+    color: rgb(185, 14, 185);
+    text-shadow: 2px 2px 2px rgb(39, 95, 46);
+    transition: 0.5s;
+}
